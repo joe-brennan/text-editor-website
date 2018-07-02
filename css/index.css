@@ -7,7 +7,9 @@ a {
 }
 
 h1 {
-    border-top: 5px solid red;
+    border-top: 6px solid #000;
+    margin-left: calc(5%);
+    margin-right: calc(5%);
 }
 
 table {
@@ -19,11 +21,12 @@ table {
     margin-top:50px;
     -webkit-font-smoothing: antialiased;
 }
+table.fixed { table-layout:fixed; }
 
 td, th {
     padding: 8px;
     color: grey;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
 }
 

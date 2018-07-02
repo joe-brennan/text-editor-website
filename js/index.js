@@ -24,9 +24,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("google");
-      span2.className="google";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='google' href='https://www.google.co.uk/'>google</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -34,6 +32,7 @@ function pageLoad(){
       span3.className="firstAndLast";
       span3.appendChild(bracket2);
       cell2.appendChild(span3);
+
     }
 
     if (i == 5){
@@ -45,9 +44,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("reddit");
-      span2.className="reddit";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='reddit' href='https://www.reddit.com'>reddit</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -66,9 +63,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("email");
-      span2.className="email";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='email' href='https://mail.google.com/'>email</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -87,9 +82,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("reddit");
-      span2.className="reddit";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='youtube' href='https://www.youtube.com/'>youtube</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -108,9 +101,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("music");
-      span2.className="music";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='music' href='https://www.last.fm/user/GzzoMUHXHUxCBH'>music</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -129,9 +120,7 @@ function pageLoad(){
       cell2.appendChild(span1);
 
       var span2 = document.createElement("span2");
-      var link = document.createTextNode("kent moodle");
-      span2.className="kent";
-      span2.appendChild(link );
+      span2.innerHTML += "<a class='kent' href='https://moodle.kent.ac.uk/2017/my/'>kent moodle</a>"
       cell2.appendChild(span2);
 
       var bracket2 = document.createTextNode("/>");
@@ -154,7 +143,7 @@ function pageLoad(){
 }
 
 /**
-    <a href="https://www.google.co.uk/"><h2 class="google">google</h2></a>
+    <a href=""><h2 class="google">google</h2></a>
     <a href="https://www.reddit.com/"><h2 class="reddit">reddit</h2></a>
     <a href="https://mail.google.com/mail/u/0/?tab=im#inbox"><h2 class="email">email</h2></a>
     <a href="https://www.youtube.com/"><h2 class="youtube">youtube</h2></a>
