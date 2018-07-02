@@ -1,7 +1,7 @@
 function pageLoad(){
 
   var table = document.getElementById("table")
-  for (i=0; i<22; i++){
+  for (i=0; i<20; i++){
     var row = table.insertRow(i);
 
     var cell1 = row.insertCell(0);
@@ -129,24 +129,5 @@ function pageLoad(){
       span3.appendChild(bracket2);
       cell2.appendChild(span3);
     }
-
-
   }
-  //var tds = document.getElementsByTagName('td');
-
-//   for(var i = 0; tds[i]; i++) {
-//     if(tds[i].innerHTML == '1'){
-//       tds[i].
-//     }
-//     if(tds[i].innerHTML == '5') tds[i].innerHTML = '';
-// }
 }
-
-/**
-    <a href=""><h2 class="google">google</h2></a>
-    <a href="https://www.reddit.com/"><h2 class="reddit">reddit</h2></a>
-    <a href="https://mail.google.com/mail/u/0/?tab=im#inbox"><h2 class="email">email</h2></a>
-    <a href="https://www.youtube.com/"><h2 class="youtube">youtube</h2></a>
-    <a href="https://www.last.fm/user/GzzoMUHXHUxCBH"><h2 class="music">music</h2></a>
-    <a href="https://moodle.kent.ac.uk/2017/my/"><h2 class="kent">kent moodle</h2></a>
-    **/

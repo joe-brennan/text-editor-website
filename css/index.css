@@ -7,27 +7,27 @@ a {
 }
 
 h1 {
-    border-top: 6px solid #000;
-    margin-left: calc(5%);
-    margin-right: calc(5%);
+  border-top: 6px solid #000;
+  margin-left: calc(5%);
+  margin-right: calc(5%);
 }
 
 table {
-    font-family: Lato;
-    border-collapse: collapse;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:50px;
-    -webkit-font-smoothing: antialiased;
+  font-family: Lato;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  -webkit-font-smoothing: antialiased;
 }
 table.fixed { table-layout:fixed; }
 
 td, th {
-    padding: 8px;
-    color: grey;
-    font-size: 20px;
-    font-weight: 700;
+  padding: 8px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 tr{
@@ -35,13 +35,13 @@ tr{
 }
 
 table tr td:nth-child(1) {
-    width:1%;
-    text-align: left;
+  width:1%;
+  text-align: left;
 }
 
 table tr td:nth-child(2) {
-    width:100%;
-    text-align: center;
+  width:100%;
+  text-align: center;
 }
 
 #table tr:nth-child(even){background-color: #f2f2f2;}
